@@ -25,7 +25,5 @@ public class pestanias extends AppCompatActivity {
         vp = (ViewPager)findViewById(R.id.pager);
         AppPageAdapter apa = new AppPageAdapter(getSupportFragmentManager());
         vp.setAdapter(apa);
-
     }
-
 }
