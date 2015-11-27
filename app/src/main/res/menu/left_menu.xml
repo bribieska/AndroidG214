@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/left_menu_home"
+            android:icon="@drawable/ic_home_grey600_36dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/left_menu_productos"
+            android:icon="@drawable/ic_shopping_cart_grey600_36dp"
+            android:title="Carrito" />
+        <item
+            android:id="@+id/left_menu_orden"
+            android:icon="@drawable/ic_local_shipping_grey600_36dp"
+            android:title="Ordenes" />
+        <item
+            android:id="@+id/left_menu_nube"
+            android:icon="@drawable/ic_cloud_grey600_36dp"
+            android:title="Mi Nube"/>
+        <item
+            android:id="@+id/left_menu_sd"
+            android:icon="@drawable/ic_sd_card_grey600_36dp"
+            android:title="Mi Micro SD"/>
+        <item
+            android:id="@+id/left_menu_seccion_sesion"
+            android:title="Configuración">
+            <menu>
+                <item
+                    android:id="@+id/left_menu_logout"
+                    android:icon="@drawable/ic_adjust_grey600_36dp"
+                    android:title="Cerrar sesión"/>
+            </menu>
+        </item>
+    </group>
+</menu>
